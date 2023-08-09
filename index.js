@@ -114,7 +114,7 @@ removeItem()
 function confirm(){
     var confirmButt=document.createElement("button")
     confirmButt.textContent="pending.."
-    confirmButt.className="cnfrm"
+    confirmButt.className="cnfrm" 
     var err=document.getElementById("err")
     err.appendChild(confirmButt)
     confirmButt.addEventListener("click", function(){
@@ -127,3 +127,15 @@ function confirm(){
 }
 
 confirm()
+
+
+// create ui
+function generateUi(){
+    var items=
+    var item=
+    item.id
+    items.appendChild
+    var date = getDate()
+    var time = getTime()
+    box3.textContent=date
+}
